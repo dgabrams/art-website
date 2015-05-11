@@ -1,0 +1,94 @@
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+a:link {
+    text-decoration: none;
+	color: black;
+	}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+	}
+	
+a:hover {
+	text-decoration: none;
+	color: #6de6ef;
+	}
+
+
+.links {
+	padding: 0 0 20px 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	}
+
+.links li {
+	display: inline-block;
+	}
+
+.links li + li {
+	margin-left: 20px;
+	}
+
+.contact {
+	padding: 75px 0 75px 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	color: white;
+	}
+
+.contact li {
+	display: inline-block;
+	}
+
+.contact li + li {
+	margin-left: 200 px;
+}
+
+
+.title {
+	text-align: center;
+	}
+
+.welcome {
+	text-align: right;
+	}
+
+.circlephoto {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/hawk.jpg);
+	border-radius: 100%;
+	line-height: 300px;
+	}
+	
+.education {
+	padding: 40px 0 40px 0;
+	border-bottom: 1px solid #000;
+	}
+
+.work{
+	padding: 40px 0 40px 0;
+	border-bottom: 1px solid #000;
+	}
+
+.group {
+	padding: 40px 0 40px 0;
+	border-bottom: 1px solid #000;
+	}
+
+.award {
+	padding: 40 px 0 80px 0;
+	}
